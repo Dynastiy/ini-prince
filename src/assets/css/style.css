@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -o-transition: all 0.1s;
+}
+body {
+    background-color: #efefef;
+    font-family: 'Castoro', serif;
+}
+.h1--text {
+    font-family: 'Satisfy', cursive;
+}
+.app--header {
+    background: url('../bg.jpeg');
+    background-color:rgba(255, 255, 255, 0.6) ;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    /* height: 500px; */
+}
+.hero--image {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.hero--section {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+.couple {
+    width: 150px;
+    height: 150px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+    padding: 0.2rem;
+}
+
+.wedding--details {
+    height: 500px;
+    background: url("../img2.jpeg");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.details {
+    border: 1px solid #fff;
+    height: 100%;
+}
+
+.gallery--images {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photo--gallery {
+    width: 100%;
+    overflow-y: auto;
+}
