@@ -6,7 +6,7 @@
        <div class="row align-items-center justify-content-center">
         <div class="col-md-5 mb-4" data-aos="fade-up">
             <img src="@/assets/inima.jpeg" alt="" class="couple">
-            <h5 class="h1--text mt-2">InimiAbasi Aniefiok Udofa</h5>
+            <h5 class="h1--text mt-2">InimaAbasi Aniefiok Udofa</h5>
         </div>
         <div class="col mb-4">
             +
